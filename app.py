@@ -1,13 +1,13 @@
 import streamlit as st
-import tensorflow as tf
-from tensorflow.keras.models import load_model
+import tensorflow 
+# from tensorflow.keras.models import load_model
 import pickle
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 import pandas as pd
 import numpy as np
 
 ## Load the ANN trained model, scalar, one hot, label encoders pickle file
-model=load_model('model.h5')
+model=tensorflow.keras.models.load_model('model.h5')
 
 ## Load the encoder and scalar
 with open('one_hot_encoder_geography.pkl','rb') as file:
