@@ -48,7 +48,7 @@ Where:
 |------------------|---------|------------|
 | Input            | 12      | —          |
 | Hidden Layer 1   | 64      | ReLU       |
-| Hidden Layer 2   | 8       | ReLU       |
+| Hidden Layer 2   | 32       | ReLU       |
 | Output           | 1       | Sigmoid    |
 
 ---
