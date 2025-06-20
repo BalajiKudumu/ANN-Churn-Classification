@@ -30,15 +30,16 @@ A typical feed-forward ANN for classification consists of three types of layers:
 
 ## Mathematical Explanation
 Each neuron in a layer computes:
-\[
+
+$$
 \text{Output} = f\left(\sum_{i=1}^n w_i x_i + b\right)
-\]
+$$
 
 Where:
-- \( x_i \) = Input feature or previous layer’s neuron output
-- \( w_i \) = Trainable weight
-- \( b \) = Bias
-- \( f \) = Activation function (e.g. `ReLU`, `Sigmoid`, `Softmax`)
+- $x_i$ = Input feature or previous layer’s neuron output
+- $w_i$ = Trainable weight
+- $b$ = Bias
+- $f$ = Activation function (e.g. ReLU, Sigmoid, Softmax)
 
 ---
 
