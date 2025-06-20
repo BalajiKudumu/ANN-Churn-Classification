@@ -46,8 +46,8 @@ Where:
 ## Example Architecture (Binary Classification)
 | Layer            | Neurons | Activation |
 |------------------|---------|------------|
-| Input            | 10      | —          |
-| Hidden Layer 1   | 16      | ReLU       |
+| Input            | 12      | —          |
+| Hidden Layer 1   | 64      | ReLU       |
 | Hidden Layer 2   | 8       | ReLU       |
 | Output           | 1       | Sigmoid    |
 
@@ -75,7 +75,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
 model = Sequential([
-    Dense(16, activation='relu', input_shape=(10,)),  # 10 features
+    Dense(16, activation='relu', input_shape=(10,)),  # 12 features
     Dense(8, activation='relu'),
     Dense(1, activation='sigmoid')                    # Binary output
 ])
