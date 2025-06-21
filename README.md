@@ -1,4 +1,4 @@
-# ANN_Churn_Classification Project
+# ANN-Churn-Classification Project
 
 ## Artificial Neural Network (ANN) for Classification
 
