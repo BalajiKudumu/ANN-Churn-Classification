@@ -67,7 +67,9 @@ Where:
    - **Backpropagation**: Adjust weights to reduce the error.
 
 ---
+This repository contains a Python implementation of an Artificial Neural Network (ANN) for customer churn prediction. The ANN is built using TensorFlow/Keras and provides an end-to-end solution for binary classification tasks on tabular data.
 
+---
 ## Example in Python (Keras)
 Here’s a quick code snippet for a binary classification model using Keras:
 ```python
